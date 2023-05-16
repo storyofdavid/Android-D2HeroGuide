@@ -12,9 +12,12 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
 
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <!-- REPLACE BELOW WITH YOUR OWN ADMOB ID  -->
+        <!-- https://developers.google.com/admob/android/quick-start#import_the_mobile_ads_sdk  -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="YOUR_ADMOB_PUBLISHER_ID_HERE"/>
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
 
         <activity
             android:name=".MainActivity"

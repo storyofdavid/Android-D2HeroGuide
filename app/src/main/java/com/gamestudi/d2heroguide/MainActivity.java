@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MobileAds.initialize(this);
+      //  MobileAds.initialize(this);
 
 
         //If this is a debug build then load test interstitial ads

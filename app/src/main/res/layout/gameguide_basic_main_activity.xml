@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvLastHitting"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="4dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff252e39"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imgLastHitting"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:foregroundGravity="center_horizontal"
+                        app:srcCompat="@drawable/neutrals_smallcamp_ghost_camp" />
+
+                    <TextView
+
+                        android:id="@+id/txtLastHitting"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toEndOf="@+id/imgLastHitting"
+                        android:layout_toRightOf="@+id/imgLastHitting"
+                        android:gravity="center"
+                        android:text="Last Hitting"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="24sp" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvWarding"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="4dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff252e39"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imgWarding"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:foregroundGravity="center_horizontal"
+                        app:srcCompat="@drawable/neutrals_smallcamp_ghost_camp" />
+
+                    <TextView
+
+                        android:id="@+id/txtWarding"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toEndOf="@+id/imgWarding"
+                        android:layout_toRightOf="@+id/imgWarding"
+                        android:gravity="center"
+                        android:text="Warding"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="24sp" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvHeroPositions"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="4dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff252e39"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imgHeroPositions"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:foregroundGravity="center_horizontal"
+                        app:srcCompat="@drawable/neutrals_smallcamp_ghost_camp" />
+
+                    <TextView
+
+                        android:id="@+id/txtHeroPositions"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toEndOf="@+id/imgHeroPositions"
+                        android:layout_toRightOf="@+id/imgHeroPositions"
+                        android:gravity="center"
+                        android:text="Hero Positions"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="24sp" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvObjectives"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="4dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff252e39"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imgObjectives"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:foregroundGravity="center_horizontal"
+                        app:srcCompat="@drawable/neutrals_smallcamp_ghost_camp" />
+
+                    <TextView
+
+                        android:id="@+id/txtObjectives"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toEndOf="@+id/imgObjectives"
+                        android:layout_toRightOf="@+id/imgObjectives"
+                        android:gravity="center"
+                        android:text="Objectives"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="24sp" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvLanes"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="4dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff252e39"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imgLanes"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:foregroundGravity="center_horizontal"
+                        app:srcCompat="@drawable/neutrals_smallcamp_ghost_camp" />
+
+                    <TextView
+
+                        android:id="@+id/txtLanes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toEndOf="@+id/imgLanes"
+                        android:layout_toRightOf="@+id/imgLanes"
+                        android:gravity="center"
+                        android:text="Lanes"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="24sp" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvRunes"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="4dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff252e39"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imgRunes"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:foregroundGravity="center_horizontal"
+                        app:srcCompat="@drawable/neutrals_smallcamp_ghost_camp" />
+
+                    <TextView
+
+                        android:id="@+id/txtRunes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toEndOf="@+id/imgRunes"
+                        android:layout_toRightOf="@+id/imgRunes"
+                        android:gravity="center"
+                        android:text="Runes"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="24sp" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvRoshan"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="4dp"
+                android:elevation="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff252e39"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imgRoshan"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:foregroundGravity="center_horizontal"
+                        app:srcCompat="@drawable/neutrals_smallcamp_ghost_camp" />
+
+                    <TextView
+
+                        android:id="@+id/txtRoshan"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toEndOf="@+id/imgRoshan"
+                        android:layout_toRightOf="@+id/imgRoshan"
+                        android:gravity="center"
+                        android:text="Roshan"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="24sp" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

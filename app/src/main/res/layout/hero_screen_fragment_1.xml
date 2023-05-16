@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <!-- Footer aligned to bottom -->
+
+    <!-- Scrollable Content below header and above footer -->
+
+    <ScrollView
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FF353535"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ff252e39"
+                android:orientation="vertical"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="7dp">
+
+                <ImageView
+                    android:id="@+id/heroIcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff252e39"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/abaddon_medium" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/heroName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff252e39"
+                android:padding="2dp"
+                android:text="Abaddon"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/heroRole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff252e39"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Carry - Tank - Support"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light" />
+
+
+            <LinearLayout
+                android:id="@+id/talentTreeSkill25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#182128"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/talent7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="Talent 7"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/darker_gray" />
+
+                <ImageView
+                    android:id="@+id/talentLevel25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:src="@drawable/talent_level_25" />
+
+                <TextView
+                    android:id="@+id/talent8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="Talent 8"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/talentTreeSkill20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#182128"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/talent5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="Talent 5"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/darker_gray" />
+
+                <ImageView
+                    android:id="@+id/talentLevel20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:src="@drawable/talent_level_20" />
+
+                <TextView
+                    android:id="@+id/talent6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="Talent 6"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/talentTreeSkill15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#182128"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/talent3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="Talent 3"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/darker_gray" />
+
+                <ImageView
+                    android:id="@+id/talentLevel15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:src="@drawable/talent_level_15" />
+
+                <TextView
+                    android:id="@+id/talent4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="Talent 4"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/talentTreeSkill10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#182128"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/talent1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="Talent 1"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/darker_gray" />
+
+                <ImageView
+                    android:id="@+id/talentLevel10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:src="@drawable/talent_level_10" />
+
+                <TextView
+                    android:id="@+id/talent2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="Talent 2"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aghanims_shard_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ff252e39"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/aghanims_shard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:src="@drawable/item_aghanims_shard" />
+
+                <TextView
+                    android:id="@+id/aghanims_shard_ability"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30dp"
+                    android:text="Aghanim's Shard Ability"
+                    android:textAlignment="gravity"
+                    android:textColor="@android:color/background_light" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/aghanims_shard_ability_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:background="#ff252e39"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:text="Aghanim's Shard Ability Text goes here"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/darker_gray" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#182128" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/HeroSkillScrollView" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ff252e39"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/heroSkill1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                    <ImageView
+                        android:id="@+id/heroSkill2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:alpha=".3"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                    <ImageView
+                        android:id="@+id/heroSkill3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:alpha=".3"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                    <ImageView
+                        android:id="@+id/heroSkill4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:alpha=".3"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                    <ImageView
+                        android:id="@+id/heroSkill5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:alpha=".3"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                    <ImageView
+                        android:id="@+id/heroSkill6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:alpha=".3"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                    <ImageView
+                        android:id="@+id/heroSkill7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:alpha=".3"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                    <ImageView
+                        android:id="@+id/heroSkill8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:alpha=".3"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                    <ImageView
+                        android:id="@+id/heroSkill9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:alpha=".3"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                    <ImageView
+                        android:id="@+id/heroSkill10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:alpha=".3"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                    <ImageView
+                        android:id="@+id/heroSkill11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:alpha=".3"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                    <ImageView
+                        android:id="@+id/heroSkill12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:alpha=".3"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                    <ImageView
+                        android:id="@+id/heroSkill13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:alpha=".3"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                    <ImageView
+                        android:id="@+id/heroSkill14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:alpha=".3"
+                        android:background="#ff252e39"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/axe_skill_3" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/skillName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff252e39"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:text="Hoof Stomp"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#182128" />
+
+            <TextView
+                android:id="@+id/skillDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff252e39"
+                android:padding="5dp"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                tools:text="ABILITY: Unit Target \nAFFECTS: Heroes \nDamage Type: Magical \nPIERCES SPELL IMMUNITY: Yes " />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#182128" />
+
+            <TextView
+                android:id="@+id/skillText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff252e39"
+                android:padding="5dp"
+                android:text="TextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewjj"
+                android:textColor="@android:color/darker_gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#182128" />
+
+            <TextView
+                android:id="@+id/scepterSkillText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ff252e39"
+                android:padding="5dp"
+                android:textColor="#5ed266" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#182128" />
+
+            <LinearLayout
+                android:id="@+id/skillCooldowns"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ff252e39"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <ImageView
+                    android:id="@+id/coolDownImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/cooldown" />
+
+                <TextView
+                    android:id="@+id/coolDownText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="60/50/40/30"
+                    android:textColor="@android:color/background_light" />
+
+                <ImageView
+                    android:id="@+id/manaCostImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/manacost" />
+
+                <TextView
+                    android:id="@+id/manaCostText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="100/120/130/140"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:background="#ff252e39"
+                android:layout_height="200px"
+                android:id="@+id/hasToMatchAdsHeight" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_alignParentBottom="true"
+        android:background="#ff252e39"
+        android:gravity="center">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/d2heroguide_banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

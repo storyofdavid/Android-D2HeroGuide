@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 30
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId "com.gamestudi.d2heroguide"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 59
+        versionName "9.4"
+
+        resValue "string", "d2heroguide_banner_ad_unit_id", '"xxxx-your-bannerad-unit-id-here-xxxx"'
+        resValue "string", "d2heroguide_interstitial_ad_unit_id", '"xxxx-your-interstitialad-unit-id-here-xxxx"'
+        resValue "string", "test_banner_ad_unit_id", '"xxxx-admobtest-bannerad-unit-id-here-xxxx"'
+        resValue "string", "test_interstitial_ad_unit_id", '"xxxx-admobtest-interstitialad-unit-id-here-xxxx"'
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "boolean", "debug", "false"
+        }
+        debug {
+            applicationIdSuffix ".debug"
+            debuggable true
+            buildConfigField "boolean", "debug", "true"
+        }
+    }
+    namespace 'com.gamestudi.d2heroguide'
+    lint {
+        checkReleaseBuilds false
+    }
+
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //implementation 'androidx.appcompat:appcompat:1.2.00'
+    implementation 'androidx.browser:browser:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.github.devlight.navigationtabstrip:navigationtabstrip:+'
+    implementation 'com.google.firebase:firebase-core:17.5.0'
+    implementation 'com.google.firebase:firebase-ads:19.4.0'
+    implementation 'com.google.android.gms:play-services-ads:19.4.0'
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.codemybrainsout.rating:ratingdialog:1.0.8'
+    implementation 'com.google.android.material:material:1.3.0-alpha02'
+}

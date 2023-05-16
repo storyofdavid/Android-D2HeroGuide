@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <!-- Footer aligned to bottom -->
+
+    <!-- Scrollable Content below header and above footer -->
+
+    <ScrollView
+        android:id="@+id/neutralsItemContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ff252e39"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/neutralsItemLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/lyt_tier1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txtTier1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#444444"
+                    android:gravity="center_vertical"
+                    android:padding="2dp"
+                    android:text="Tier 1"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier1_ItemsLine1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier1Items1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier1_arcane_ring" />
+
+                    <ImageView
+                        android:id="@+id/Tier1Items2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier1_broom_handle" />
+
+                    <ImageView
+                        android:id="@+id/Tier1Items3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier1_pig_pole" />
+
+                    <ImageView
+                        android:id="@+id/Tier1Items4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier1_fairys_trinket" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier1_ItemsLine2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier1Items5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier1_tumblers_toy" />
+
+                    <ImageView
+                        android:id="@+id/Tier1Items6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier1_keen_optic" />
+
+                    <ImageView
+                        android:id="@+id/Tier1Items7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier1_chipped_vest" />
+
+                    <ImageView
+                        android:id="@+id/Tier1Items8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier1_ocean_heart" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier1_ItemsLine3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier1Items9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier1_possessed_mask" />
+
+                    <ImageView
+                        android:id="@+id/Tier1Items10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier1_trusty_shovel" />
+
+                    <ImageView
+                        android:id="@+id/Tier1Items11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/item_clarity" />
+
+                    <ImageView
+                        android:id="@+id/Tier1Items12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/item_clarity" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_tier2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txtTier2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#06860D"
+                    android:gravity="center_vertical"
+                    android:padding="2dp"
+                    android:text="Tier 2"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier2_ItemsLine1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier2Items1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier2_quicksilver_amulet" />
+
+                    <ImageView
+                        android:id="@+id/Tier2Items2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier2_dragon_scale" />
+
+                    <ImageView
+                        android:id="@+id/Tier2Items3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier2_essence_ring" />
+
+                    <ImageView
+                        android:id="@+id/Tier2Items4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier2_grove_bow" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier2_ItemsLine2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier2Items5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier2_brigands_blade" />
+
+                    <ImageView
+                        android:id="@+id/Tier2Items6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier2_nether_shawl" />
+
+                    <ImageView
+                        android:id="@+id/Tier2Items7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier2_philosophers_stone" />
+
+                    <ImageView
+                        android:id="@+id/Tier2Items8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier2_pupils_gift" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier2_ItemsLine3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier2Items9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier2_ring_of_aquila" />
+
+                    <ImageView
+                        android:id="@+id/Tier2Items10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier2_vambrace" />
+
+                    <ImageView
+                        android:id="@+id/Tier2Items11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier2_bullwhip" />
+
+                    <ImageView
+                        android:id="@+id/Tier2Items12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier2_fae_grenade" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_tier3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txtTier3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#035CAA"
+                    android:gravity="center_vertical"
+                    android:padding="2dp"
+                    android:text="Tier 3"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier3_ItemsLine1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier3Items1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier3_cloak_of_flames" />
+
+                    <ImageView
+                        android:id="@+id/Tier3Items2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier3_enchanted_quiver" />
+
+                    <ImageView
+                        android:id="@+id/Tier3Items3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier3_ceremonial_robe" />
+
+                    <ImageView
+                        android:id="@+id/Tier3Items4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier3_mind_breaker" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier3_ItemsLine2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier3Items5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier3_blast_rig" />
+
+                    <ImageView
+                        android:id="@+id/Tier3Items6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier3_paladin_sword" />
+
+                    <ImageView
+                        android:id="@+id/Tier3Items7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier3_quickening_charm" />
+
+                    <ImageView
+                        android:id="@+id/Tier3Items8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier3_elven_tunic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier3_ItemsLine3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier3Items9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier3_spider_legs" />
+
+                    <ImageView
+                        android:id="@+id/Tier3Items10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier3_titan_sliver" />
+
+                    <ImageView
+                        android:id="@+id/Tier3Items11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier3_psychic_headband" />
+
+                    <ImageView
+                        android:id="@+id/Tier3Items12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/item_power_treads" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_tier4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txtTier4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#673AB7"
+                    android:gravity="center_vertical"
+                    android:padding="2dp"
+                    android:text="Tier 4"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier4_ItemsLine1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier4Items1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier4_flicker" />
+
+                    <ImageView
+                        android:id="@+id/Tier4Items2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier4_telescope" />
+
+                    <ImageView
+                        android:id="@+id/Tier4Items3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier4_ascetics_cap" />
+
+                    <ImageView
+                        android:id="@+id/Tier4Items4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier4_penta_edged_sword" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier4_ItemsLine2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier4Items5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier4_witchbane" />
+
+                    <ImageView
+                        android:id="@+id/Tier4Items6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier4_ninja_gear" />
+
+                    <ImageView
+                        android:id="@+id/Tier4Items7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier4_trickster_cloak" />
+
+                    <ImageView
+                        android:id="@+id/Tier4Items8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier4_spell_prism" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier4_ItemsLine3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier4Items9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier4_the_leveller" />
+
+                    <ImageView
+                        android:id="@+id/Tier4Items10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier4_timeless_relic" />
+
+                    <ImageView
+                        android:id="@+id/Tier4Items11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier4_stormcrafter" />
+
+                    <ImageView
+                        android:id="@+id/Tier4Items12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/item_eye_of_skadai" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyt_tier5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txtTier5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FF9800"
+                    android:gravity="center_vertical"
+                    android:padding="2dp"
+                    android:text="Tier 5"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier5_ItemsLine1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier5Items1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier5_apex" />
+
+                    <ImageView
+                        android:id="@+id/Tier5Items2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier5_arcanists_armour" />
+
+                    <ImageView
+                        android:id="@+id/Tier5Items3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier5_book_of_the_dead" />
+
+                    <ImageView
+                        android:id="@+id/Tier5Items4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier5_ex_machina" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier5_ItemsLine2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier5Items5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier5_fallen_sky" />
+
+                    <ImageView
+                        android:id="@+id/Tier5Items6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier5_force_boots" />
+
+                    <ImageView
+                        android:id="@+id/Tier5Items7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier5_mirror_shield" />
+
+                    <ImageView
+                        android:id="@+id/Tier5Items8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier5_pirate_hat" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyt_tier5_ItemsLine3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Tier5Items9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier5_seer_stone" />
+
+                    <ImageView
+                        android:id="@+id/Tier5Items10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier5_stygian_desolator" />
+
+                    <ImageView
+                        android:id="@+id/Tier5Items11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier5_giants_ring" />
+
+                    <ImageView
+                        android:id="@+id/Tier5Items12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:src="@drawable/neutral_items_tier5_book_of_shadows" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="200px"
+                android:background="#ff252e39" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_alignParentBottom="true"
+        android:background="#ff252e39"
+        android:gravity="center">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/d2heroguide_banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

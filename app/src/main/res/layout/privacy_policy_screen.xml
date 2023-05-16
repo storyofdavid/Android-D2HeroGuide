@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff252e39"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="50dp"
+            android:paddingTop="25dp"
+            android:text="Privacy Policy"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We collect a unique advertising id that google provides for your account.
+This is used to show relevant ads, which helps us conitune developing awesome apps for you.
+
+We collect anonymous usage data such as crash logs and feature usage.
+This is to help us identify which parts of the app we should conitune focusing on.
+You can read our full privacy policy at"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/txtCreditsLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:linksClickable="true"
+            android:text="https://gamestudi.com/hero_guide_for_dota_2_privacy_policy.html"
+            android:textColor="#6387f2" />
+    </LinearLayout>
+
+</LinearLayout>

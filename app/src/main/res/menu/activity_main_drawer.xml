@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_heroes"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Heroes" />
+
+        <item
+            android:id="@+id/nav_gameguide_basic"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Game Guide - Basic" />
+
+        <item
+            android:id="@+id/nav_items"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Items" />
+        <item
+            android:id="@+id/nav_neutral_items"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Neutral Items" />
+        <item
+            android:id="@+id/nav_neutrals"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Neutrals" />
+    </group>
+
+    <item
+        android:id="@+id/nav_manage"
+        android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Contact" />
+            <item
+                android:id="@+id/nav_credits"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Credits" />
+            <item
+                android:id="@+id/nav_gameplay_updates"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Gameplay Updates" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Privacy Policy" />
+        </menu>
+    </item>
+
+</menu>

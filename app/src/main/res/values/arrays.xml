@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="heroScreenTitles">
+        <item>Strength</item>
+        <item>Agility</item>
+        <item>Intelligence</item>
+    </string-array>
+
+
+    <string-array name="itemScreenTitles">
+        <item>Basic</item>
+        <item>Upgrades</item>
+        <item>Secret</item>
+    </string-array>
+
+    <string-array name="heroScreenTabs">
+        <item>Hero</item>
+        <item>Item Build</item>
+    </string-array>
+
+</resources>
